@@ -3,22 +3,35 @@ import { enNavbar } from "./navbar/index.js";
 import { enSidebar } from "./sidebar/index.js";
 
 export default hopeTheme({
-  hostname: "https://vuepress-theme-hope-docs-demo.netlify.app",
+  hostname: "https://edenx-97.github.io/",
 
   author: {
-    name: "Mr.Hope",
-    url: "https://mrhope.site",
+    name: "Eden Xu",
+    // url: "",
   },
 
   iconAssets: "iconfont",
 
   logo: "/logo.svg",
 
-  repo: "vuepress-theme-hope/vuepress-theme-hope",
+  editLink: false,
 
-  docsDir: "demo/theme-docs/src",
+  repo: "EdenX-97/EdenX-97.github.io",
+
+  docsDir: "notes",
 
   pageInfo: ["Author", "Original", "Date", "Category", "Tag", "ReadingTime"],
+
+  blog: {
+    avatar: "/avatar.jpg",
+    roundAvatar: true,
+    description: "Nice to meet you.",
+    medias: {
+      GitHub: "https://github.com/EdenX-97",
+      Linkedin: "https://www.linkedin.com/in/moxu97/",
+      Email: "mailto:edenxu97@outlook.com",
+    },
+  },
 
   locales: {
     "/": {
@@ -28,48 +41,52 @@ export default hopeTheme({
       // sidebar
       sidebar: enSidebar,
 
-      footer: "Default footer",
+      footer: "",
 
-      displayFooter: true,
+      displayFooter: false,
 
       metaLocales: {
-        editLink: "Edit this page on GitHub",
+        // editLink: "Edit this page on GitHub",
       },
     },
   },
 
   encrypt: {
     config: {
-      "/demo/encrypt.html": ["1234"],
+      // "/demo/encrypt.html": ["1234"],
     },
   },
 
   plugins: {
+    blog: {
+      autoExcerpt: true,
+    },
+
     // If you don’t need comment feature, you can remove following option
     // The following config is for demo ONLY, if you need comment feature, please generate and use your own config, see comment plugin documentation for details.
     // To avoid disturbing the theme developer and consuming his resources, please DO NOT use the following config directly in your production environment!!!!!
-    comment: {
-      /**
-       * Using Giscus
-       */
-      // provider: "Giscus",
-      // repo: "vuepress-theme-hope/giscus-discussions",
-      // repoId: "R_kgDOG_Pt2A",
-      // category: "Announcements",
-      // categoryId: "DIC_kwDOG_Pt2M4COD69",
+    // comment: {
+    //   /**
+    //    * Using Giscus
+    //    */
+    //   // provider: "Giscus",
+    //   // repo: "vuepress-theme-hope/giscus-discussions",
+    //   // repoId: "R_kgDOG_Pt2A",
+    //   // category: "Announcements",
+    //   // categoryId: "DIC_kwDOG_Pt2M4COD69",
 
-      /**
-       * Using Twikoo
-       */
-      // provider: "Twikoo",
-      // envId: "https://twikoo.ccknbc.vercel.app",
+    //   /**
+    //    * Using Twikoo
+    //    */
+    //   // provider: "Twikoo",
+    //   // envId: "https://twikoo.ccknbc.vercel.app",
 
-      /**
-       * Using Waline
-       */
-      provider: "Waline",
-      serverURL: "https://vuepress-theme-hope-comment.vercel.app",
-    },
+    //   /**
+    //    * Using Waline
+    //    */
+    //   provider: "Waline",
+    //   serverURL: "https://vuepress-theme-hope-comment.vercel.app",
+    // },
 
     // Disable features you don’t want here
     mdEnhance: {
@@ -80,10 +97,10 @@ export default hopeTheme({
       container: true,
       demo: true,
       echarts: true,
+      // figure: true,
       flowchart: true,
       gfm: true,
       imageLazyload: true,
-      imageTitle: true,
       imageSize: true,
       include: true,
       katex: true,
@@ -115,7 +132,7 @@ export default hopeTheme({
       vuePlayground: true,
     },
 
-    // uncomment these if you want a pwa
+    // uncomment these if you want a PWA
     // pwa: {
     //   favicon: "/favicon.ico",
     //   cacheHTML: true,
