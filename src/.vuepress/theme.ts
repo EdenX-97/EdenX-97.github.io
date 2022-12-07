@@ -14,6 +14,8 @@ export default hopeTheme({
 
   logo: "/logo.svg",
 
+  lastUpdated: true,
+
   editLink: false,
 
   repo: "EdenX-97/EdenX-97.github.io",
@@ -31,6 +33,7 @@ export default hopeTheme({
       Linkedin: "https://www.linkedin.com/in/moxu97/",
       Email: "mailto:edenxu97@outlook.com",
     },
+    timeline: "Timeline",
   },
 
   locales: {

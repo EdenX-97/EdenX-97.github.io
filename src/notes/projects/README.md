@@ -1,6 +1,6 @@
 ---
-icon: note
-title: Notes
+icon: launch
+title: Projects
 index: false
 article: false
 ---
