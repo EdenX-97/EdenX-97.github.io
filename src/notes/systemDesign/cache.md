@@ -18,18 +18,18 @@ tag:
 * Cons: latency
 * Pros: complete consistancy
 
-![write-throught](/assets/notes/images/cache.png)
+![write-throught](/assets/notes/images/write-throught.png)
 
 ### Write-around
 
 - Cons: cache miss, more latency, less consistancy
 - Pros: less write latency
 
-![write-around](/assets/notes/images/cache1.png)
+![write-around](/assets/notes/images/write-around.png)
 
 ### Write-back
 
 - Cons: lose data
 - Pros: low latency
 
-![img]()
+![write-back](/assets/notes/images/write-back.png)
