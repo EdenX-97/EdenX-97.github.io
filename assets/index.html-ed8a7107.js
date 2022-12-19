@@ -1,0 +1,1 @@
+import{_ as n,W as o,X as s,Y as e,$ as a,a0 as r,E as l,Z as c}from"./framework-5afa3ebb.js";const _={};function u(d,i){const t=l("RouterLink");return o(),s("div",null,[e("ul",null,[e("li",null,[a(t,{to:"/other/eden-resume.html"},{default:r(()=>[c("Eden's Resume")]),_:1})])])])}const f=n(_,[["render",u],["__file","index.html.vue"]]);export{f as default};

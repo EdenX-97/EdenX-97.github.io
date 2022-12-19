@@ -1,0 +1,1 @@
+import{_ as o,W as n,X as a,Y as e,$ as l,a0 as r,E as c,Z as s}from"./framework-5afa3ebb.js";const _={};function i(u,d){const t=c("RouterLink");return n(),a("div",null,[e("ul",null,[e("li",null,[l(t,{to:"/notes/project/tutorial.html"},{default:r(()=>[s("Tutorial")]),_:1})])])])}const f=o(_,[["render",i],["__file","index.html.vue"]]);export{f as default};

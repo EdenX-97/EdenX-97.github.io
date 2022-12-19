@@ -1,0 +1,1 @@
+import{_ as n,W as o,X as a,Y as e,$ as l,a0 as r,E as s,Z as c}from"./framework-5afa3ebb.js";const _={};function d(i,u){const t=s("RouterLink");return o(),a("div",null,[e("ul",null,[e("li",null,[l(t,{to:"/notes/develop/frontend.html"},{default:r(()=>[c("Front end")]),_:1})])])])}const m=n(_,[["render",d],["__file","index.html.vue"]]);export{m as default};
