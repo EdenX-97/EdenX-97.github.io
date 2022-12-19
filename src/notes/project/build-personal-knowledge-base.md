@@ -1,11 +1,13 @@
 ---
 title: Build and customize a personal knowledge base and blog by Vuepress + Github Pages
 icon: article
-timeline: true
 article: true
 index: false
+category:
+  - Tutorial
+tag:
+  - Open Source
 ---
-
 ## 0. Related Resources
 
 1. [Vuepress](https://vuepress.vuejs.org/)
@@ -211,7 +213,7 @@ Go to your Github Account, create a repository named `<your_username>.github.io`
 
 Then, in terminal, go to your project root folder, enter following commands:
 
-``` bash
+```bash
 git add -A
 git commit -m "first commit"
 git remote add origin https://github.com/<your_username>/<your_username>.github.io.git
@@ -228,4 +230,6 @@ Final step, go to your repository, in `Settings-Pages` tab, change the Branch to
 
 ![image-20221208014857098](/assets/notes/images/image-20221208014857098.png)
 
-After all actions completed, you can access your website through `<your_username>.github.io`, enjoy!
+After all actions completed, you can access your website through `<your_username>.github.io`.
+
+Enjoy!

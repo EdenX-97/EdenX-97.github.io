@@ -1,5 +1,6 @@
 import { defineUserConfig } from "vuepress";
 import theme from "./theme.js";
+import { searchProPlugin } from "vuepress-plugin-search-pro";
 
 export default defineUserConfig({
   base: "/",
@@ -13,6 +14,22 @@ export default defineUserConfig({
   },
 
   theme,
+
+  plugins: [
+    searchProPlugin({
+      indexContent: true,
+      customFields: [
+        {
+          getter: ({ frontmatter }) => frontmatter.tag as string[],
+          formatter: `Tag: $content`,
+        },
+        {
+          getter: ({ frontmatter }) => frontmatter.category as string[],
+          formatter: `Category: $content`,
+        },
+      ],
+    }),
+  ],
 
   shouldPrefetch: false,
 });

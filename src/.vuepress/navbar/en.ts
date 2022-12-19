@@ -7,6 +7,18 @@ export const enNavbar = navbar([
     icon: "note",
     link: "/notes/",
   },
+  {
+    text: "Resources",
+    icon: "network",
+    prefix: "/resources/",
+    children: [
+      {
+        text: "Website",
+        icon: "cache",
+        link: "website/",
+      },
+    ],
+  },
   // {
   //   text: "Posts",
   //   icon: "edit",
