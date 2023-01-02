@@ -4,6 +4,6 @@ title: Notes
 index: false
 article: false
 ---
-- [Develop](/notes/develop)
-- [Project](/notes/project)
-- [System Design](/systemDesign)
+- [Project](./project)
+- [System Design](./systemDesign)
+- [Algorithm](/algorithm)

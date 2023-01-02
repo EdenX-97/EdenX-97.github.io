@@ -19,6 +19,11 @@ export const enNavbar = navbar([
       },
     ],
   },
+  {
+    text: "Portfolio",
+    icon: "result",
+    link: "https://edenportfolio.link/",
+  },
   // {
   //   text: "Posts",
   //   icon: "edit",

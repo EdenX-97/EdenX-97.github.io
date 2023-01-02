@@ -11,5 +11,5 @@ Basic concepts of system design.
 - [Data Partitioning](./data-partitioning.md)
 - [Indexes](./indexes.md)
 - [Latency and Throughput](./latency-and-throughput.md)
-- [Replication](./replication.md)
+- [Replication and Redundancy](./replication-and-redundancy.md)
 - [SQL vs NoSQL](./SQL-vs-NoSQL.md)
